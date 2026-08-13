@@ -30,7 +30,7 @@ spring:
     redis:
       host: noted-maggot-150363.upstash.io
       port: 6379
-      password: gQAAAAAAAktbAAIgcDI4MzMyYzdhNzVjYjQ0YjE1YjNkOTNlNDhiN2RjMWE4ZA
+      password: gQAAAAAAAktbAAIgcDIwM2YzMTU1NDExNDk0NGE1YmYwZTI0MGM5MWZjZWY1OQ
       ssl:
         enabled: true
 

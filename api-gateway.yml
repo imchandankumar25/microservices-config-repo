@@ -19,6 +19,13 @@ spring:
               uri: lb://INVENTORY-SERVICE
               predicates:
                 - Path=/api/inventory/**
+  data:
+    redis:
+      host: noted-maggot-150363.upstash.io
+      port: 6379
+      password: gQAAAAAAAktbAAIgcDI4MzMyYzdhNzVjYjQ0YjE1YjNkOTNlNDhiN2RjMWE4ZA
+      ssl:
+        enabled: true
 
 eureka:
   client:
